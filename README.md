@@ -1,3 +1,6 @@
+# Deployed on GH-pages
+https://shubham3030.github.io/trajactor-FE-assignment/#
+
 # Music Player - SongBook
 
 This is a music player built with React, tailwind and TypeScript. It allows you to play, pause, and skip through a selection of songs.
