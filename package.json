@@ -1,0 +1,105 @@
+{
+  "name": "songbook-tailwind-ts",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://shubham3030.github.io/trajactor-FE-assignment",
+  "dependencies": {
+    "@craco/craco": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "babel-loader": "^9.1.3",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "react": "^17.0.2",
+    "react-cool-img": "^1.2.10",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-slick-carousel": "^0.14.9",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start:dev": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/**/*.{js,jsx,ts,tsx}",
+    "lint:fix": "eslint ./src/**/*.{js,jsx,ts,tsx} --fix",
+    "pretty:code": "prettier src/**/*.tsx --write",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/node-logger": "^6.2.9",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.9",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-helmet": "^6.1.1",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-slick": "^0.23.4",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
+    "autoprefixer": "9",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "gh-pages": "^6.1.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "postcss": "7",
+    "postcss-cli": "7.0.0",
+    "postcss-import": "12.0.0",
+    "prettier": "^2.3.0",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "webpack": "^4.44.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "eslint ./src/**/*.{js,jsx,ts,tsx} --fix"
+    ]
+  }
+}
