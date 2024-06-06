@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trajactor-FE-assignment/static/css/main.6da37d03.chunk.css",
-    "main.js": "/trajactor-FE-assignment/static/js/main.0b0be0b4.chunk.js",
-    "main.js.map": "/trajactor-FE-assignment/static/js/main.0b0be0b4.chunk.js.map",
+    "main.js": "/trajactor-FE-assignment/static/js/main.54bf6427.chunk.js",
+    "main.js.map": "/trajactor-FE-assignment/static/js/main.54bf6427.chunk.js.map",
     "runtime-main.js": "/trajactor-FE-assignment/static/js/runtime-main.8a64d5cf.js",
     "runtime-main.js.map": "/trajactor-FE-assignment/static/js/runtime-main.8a64d5cf.js.map",
     "static/css/2.ffaa8936.chunk.css": "/trajactor-FE-assignment/static/css/2.ffaa8936.chunk.css",
@@ -71,6 +71,6 @@
     "static/css/2.ffaa8936.chunk.css",
     "static/js/2.c4add45e.chunk.js",
     "static/css/main.6da37d03.chunk.css",
-    "static/js/main.0b0be0b4.chunk.js"
+    "static/js/main.54bf6427.chunk.js"
   ]
 }
